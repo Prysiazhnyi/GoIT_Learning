@@ -1,3 +1,91 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* Убираем точки и подчёркивание */
+ul {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* цвет текста основной #757575 */
+/* цвет текста вторичный #212121 */
+/* цвет белый #FFFFFF */
+/* акцент -лого цвет текста #2196F3 */
+/* цвет лого-2 #000000 */
+/* цвет-адресс color: rgba(255, 255, 255, 0.6); */
+
+/* фон основной #FFFFFF */
+/* фон команда background: #F5F4FA; */
+/* фон футер-герой #2F303A; */
+/* фон кнопки героя #2196F3 */
+
+/* header */
+.logo-first {
+    color: #2196F3;
+}
+.logo-second-header {
+    color: #000000 ;
+}
+.site-nav {
+color: #212121;
+}
+.address-nav {
+color: #757575;
+}
+.site-nav:hover, .address-nav:hover,
+.site-nav:focus, .address-nav:focus {
+    color: #2196F3;
+}
+
+/* main */
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* peculiar */
+.peculiar-caption {
+    color: rgba(0, 0, 0, 0);
+}
+.peculiar-title {
+    color: #212121;
+}
+
+/* about */
+.about-caption {
+    color: #212121;
+}
+
+/* team */
+.team {
+    background-color:#F5F4FA
+}
+.team-title {
+    color: #212121;
+}
+
+/* footer */
+.footer {
+    background-color:#2F303A;
+}
+.logo-footer-second {
+    color: #FFFFFF;
+}
+.address {
+    color: #FFFFFF;
+}
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
 }
