@@ -161,3 +161,42 @@ text-align: center;
     font-size: 14px;
     line-height: 1.71;
 }
+
+/* Портфоліо */
+.works-hero {
+    color: rgba(0,0,0,0);
+}
+button{
+    cursor: pointer;
+}
+.works-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+color: var(--title-text-color);
+}
+.works-button:hover, 
+.works-button:focus {
+    color: var(--white-text);
+    background-color: var(--hero-button-background);
+}
+
+/* Контент */
+.works-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.works-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+}
+.works-boxes:hover,
+.works-boxes:focus {
+    color: var(--white-text);
+    background-color: var(--hero-button-background);
+}
