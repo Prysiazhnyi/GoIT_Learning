@@ -195,8 +195,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 }
-.works-boxes:hover,
+/* .works-boxes:hover,
 .works-boxes:focus {
     color: var(--white-text);
     background-color: var(--hero-button-background);
-}
+} */
