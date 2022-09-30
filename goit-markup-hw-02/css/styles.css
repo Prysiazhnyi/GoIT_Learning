@@ -154,12 +154,18 @@ text-align: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    text-decoration-line: underline;
-}
+ }
 .address-tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.address {
+    font-style: normal;
+}
+.address:hover,
+.address:focus {
+    color: var(--acctent-text-color);
 }
 
 /* Портфоліо */
@@ -175,6 +181,7 @@ font-size: 16px;
 line-height: 1.63;
 text-align: center;
 color: var(--title-text-color);
+font-family: inherit;
 }
 .works-button:hover, 
 .works-button:focus {
